@@ -1,13 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
-
-const links = [
-  { href: '/about', label: 'ABOUT' },
-  { href: '/workshop', label: 'WORKSHOP' },
-].map(link => ({
-  ...link,
-  key: `nav-link-${link.href}-${link.label}`,
-}))
 
 const Nav = () => (
   <nav>
