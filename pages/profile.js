@@ -5,7 +5,6 @@ import { useRouter } from 'next/router';
 import Link from "next/link";
 
 const Profile = () => {
-  const router = useRouter();
   const getToken = cookie.get('token');
 
   return(

@@ -4,7 +4,6 @@ import { useState } from "react";
 import cookie from 'js-cookie';
 import Axios from "axios";
 import { useRouter } from 'next/router';
-import Profile from "./profile";
 
 const Index = () => {
   const [ name, setName ] = useState('');
