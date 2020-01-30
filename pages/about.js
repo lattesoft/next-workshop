@@ -1,15 +1,15 @@
 import Layout from "../components/layout";
 import NavLink from "../components/link";
 
-const Index = () => {
+const About = () => {
   return(
     <Layout>
       <div className="center-text">
-      <h2>Welcome to Workshop 6: Dynamic Route</h2>
-      <NavLink />
+        <h2>Presented By Lattesoft Corporation</h2>
+        <NavLink />
       </div>
     </Layout>
   )
 }
 
-export default Index;
+export default About;

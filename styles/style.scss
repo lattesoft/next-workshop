@@ -1,0 +1,106 @@
+* {
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
+    Helvetica, sans-serif;
+  background-image: url(/static/background/background-image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+nav {
+  top: 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  background: #13A4FD;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 0;
+  .nav-image {
+    display: flex;
+    margin: 0 0.5em;
+    .image-show {
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      margin: 0 0.2em;
+      overflow: hidden;
+}
+  }
+  .nav-center-text {
+    font-size: 16px;
+    text-transform: uppercase;
+    span {
+      font-size: 20px;
+      margin: 0 0.5em;
+    }
+  }
+}
+.back-workshop {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000;
+  transition: 0.5s all ease-in-out;
+  &:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+.workshop-list-wrapper {
+  width: 100%;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  margin-bottom: 1em;
+  cursor: pointer;
+  .workshop-list {
+    font-size: 16px;
+    padding: 1em;
+    transition: 0.2s all ease-in-out;
+    text-align: center !important;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s all ease-in-out;
+  }
+}
+
+.list-link {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  .link-title {
+    text-decoration: underline;
+    color: #fff;
+  }
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}

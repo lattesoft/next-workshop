@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "How to train your React/Nextjs"
+  },
+  {
+    "id": 2,
+    "title": "Hello World With React"
+  },
+  {
+    "id": 3,
+    "title": "Calculator"
+  },
+  {
+    "id": 4,
+    "title": "Fetching Data with Axios"
+  },
+  {
+    "id": 5,
+    "title": "Dynamic Route"
+  },
+  {
+    "id": 6,
+    "title": "Coming Soon"
+  },
+  {
+    "id": 7,
+    "title": "Coming Soon"
+  }
+]
