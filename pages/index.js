@@ -5,7 +5,7 @@ import Nav from '../components/nav'
 const Home = () => (
   <div>
     <Head>
-      <title>Home</title>
+      <title>Login and Logout</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
