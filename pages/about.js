@@ -1,9 +1,13 @@
 import Layout from "../components/layout";
+import NavLink from "../components/link";
 
 const About = () => {
   return(
     <Layout>
-      <h1 className="center-text">Presented By Lattesoft Corporation</h1>
+      <div className="center-text">
+        <h2>Presented By Lattesoft Corporation</h2>
+        <NavLink />
+      </div>
     </Layout>
   )
 }

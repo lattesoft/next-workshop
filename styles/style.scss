@@ -16,6 +16,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 }
 nav {
   top: 0;
@@ -65,12 +66,14 @@ nav {
   }
 }
 .workshop-list-wrapper {
+  width: 100%;
   flex-direction: column;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
+  margin-bottom: 1em;
   cursor: pointer;
   .workshop-list {
     font-size: 16px;
@@ -86,4 +89,18 @@ nav {
     color: #000;
     transition: 0.2s all ease-in-out;
   }
+}
+
+.list-link {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  .link-title {
+    text-decoration: underline;
+    color: #fff;
+  }
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
 }
