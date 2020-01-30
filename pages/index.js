@@ -8,16 +8,12 @@ const Index = () => {
   return(
     <Layout>
       <div className="center-text">
-      <h2>Welcome to Workshop 7: Login and Logout</h2>
-      {getToken ? (
-        <Logout/>
-      ) : (
+        <h2>Welcome to Workshop 7: Login and Logout</h2>
         <Link href="/login">
           <a>
             Login
           </a>
         </Link>
-      )}
       </div>
     </Layout>
   )
